@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Agent Team Playbook — Organize AI Agents into a Company That Runs Itself</title>
+  <meta name="description" content="The method, templates, and clone-ready bundle for running an AI agent team — at any scale, org designed by you: roles, deliverable contracts, artifact handoffs, registry, scaffolding, and cross-harness portability. Code free on GitHub — you pay for the organization.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Runtime config (GA4 / Pixel / CF token / buy URL / newsletter URL) lives in config.js, git-ignored on this machine;
+       config.example.js in the repo shows the shape. Load synchronously before analytics.js. -->
+  <script src="config.js"></script>
+  <script src="analytics.js" defer></script>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="brand">The Agent Team Playbook</span>
+      <button class="buy-cta small" data-cta="nav">Get the Playbook — $49</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <p class="kicker">For builders running more than one AI agent</p>
+      <h1>How I Organize <span class="accent">AI Agents</span> into a Company That Runs Itself</h1>
+      <p class="sub">
+        Code free on GitHub. You pay for the <strong>organization</strong> —
+        templates, playbook, and a clone-ready bundle.
+      </p>
+      <div class="hero-cta">
+        <button class="buy-cta big" data-cta="hero">Get the Playbook — $49</button>
+        <span class="strike"><s>$69</s>&nbsp;·&nbsp;20 files · clone &amp; go</span>
+      </div>
+      <div class="earlybird hidden" id="earlybird">
+        🐣 Launch-week early bird: <strong>$35</strong> with code <code id="earlybird-code">EARLY35</code>
+        <span class="eb-note" id="earlybird-deadline"></span>
+      </div>
+      <div class="stat-row">
+        <div class="stat"><b>20</b><span>files, clone-ready</span></div>
+        <div class="stat"><b>7</b><span>method modules</span></div>
+        <div class="stat"><b>2</b><span>real case walkthroughs</span></div>
+        <div class="stat"><b>15<span class="unit">min</span></b><span>to your first agent</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="who" class="section">
+      <div class="container">
+        <h2>Who this is for</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>💸 The under-utilizer</h3>
+            <p>You pay <strong>$20–$200/month</strong> for AI subscriptions and suspect you're using 5% of what they can do.</p>
+          </div>
+          <div class="card">
+            <h3>🧩 The plugin hoarder</h3>
+            <p>You've installed dozens of skills and plugins — and can no longer <strong>find or trust</strong> any of them.</p>
+          </div>
+          <div class="card">
+            <h3>🎭 The reluctant manager</h3>
+            <p>You run multiple agents, but when someone asks <strong>"who does what?"</strong> — you don't have an answer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="inside" class="section alt">
+      <div class="container">
+        <h2>What's inside</h2>
+        <p class="section-sub">A digital handbook + blank templates + a clone-ready bundle. Seven modules:</p>
+        <ol class="modules">
+          <li><b>The Team Method</b> — roles → deliverable contracts → artifact handoffs → codified standards. Why "division of labor + handoffs" beats "one giant prompt".</li>
+          <li><b>Role Templates</b> — three copy-and-fill templates: identity file, rules file, registry.</li>
+          <li><b>Rules as Guardrails</b> — turn your mistakes into hard constraints; the enforcement ladder from prose to tool-enforced.</li>
+          <li><b>Registry &amp; Naming</b> — persona naming, registry upkeep, split signals, and the org design of going from 1 → N agents.</li>
+          <li><b>Scaffolding Kit</b> — why every file in a standard agent repo exists: bilingual README, VERSION + CHANGELOG, TODO pairs, tmp boundaries.</li>
+          <li><b>Case Walkthroughs</b> — two real repositories walked file by file: a 56-line minimal agent, and a discipline-maxed setup.</li>
+          <li><b>Cross-Harness Portability</b> — the portability map, five-step migration, one file on multiple harnesses.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="team" class="section alt">
+      <div class="container">
+        <h2>The org, visualized</h2>
+        <p class="section-sub">A carbon–silicon org where specialized agents roll up to one CEO — this is the kind of structure the Playbook builds. How many agents, and how they're grouped, is entirely up to you.</p>
+
+        <div class="org-callout">
+          <strong>This is a sample org.</strong> Names, pairings, and even the number of squads are illustrative — not a template you copy 1:1.
+          Build the agents <em>you</em> actually need, then wire them into an org that fits your work. The Playbook gives you the
+          method and templates; the architecture is yours to design.
+        </div>
+
+        <p class="org-sample-tag">Example org — sample names &amp; structure</p>
+
+        <div class="org" aria-label="Sample agent org chart">
+          <div class="org-ceo">You<span>CEO</span></div>
+
+          <p class="org-label">Report directly to the CEO</p>
+          <div class="org-direct">
+            <span class="org-chip">👩‍💼 Kit · Exec Assistant</span>
+            <span class="org-chip">🥂 Gatsby · Community Mgr</span>
+            <span class="org-chip">🎯 Hopkins · Apply Optimizer</span>
+            <span class="org-chip">⚖️ Justin · Legal</span>
+          </div>
+
+          <p class="org-label">Three business squads</p>
+          <div class="org-squads">
+            <div class="org-squad">
+              <h3>🛍️ Digital-product Sales</h3>
+              <ul>
+                <li>🧭 ① Scout · Product Strategist</li>
+                <li>🛠️ ② Wright · Producer</li>
+                <li>🏗️ ③ Mason · Site Builder</li>
+                <li>📣 ④ Buzz · Growth Marketer</li>
+                <li>💰 ⑤ Vendy · Sales Ops</li>
+                <li>📊 ⑥ Echo · Analyst</li>
+              </ul>
+            </div>
+            <div class="org-squad">
+              <h3>📈 Investing &amp; Trading</h3>
+              <ul>
+                <li>📐 Markowitz · Quant Strategist</li>
+                <li>📈 Victor · Day Trader</li>
+              </ul>
+            </div>
+            <div class="org-squad">
+              <h3>🧰 Infrastructure</h3>
+              <ul>
+                <li>🔧 Tinker · Patch Maintainer</li>
+                <li>🧰 Prometheus · Capability Steward</li>
+                <li>🌐 Hermes · NetOps</li>
+                <li>🔨 Anvil · Backend Engineer</li>
+                <li>🗺️ Atlas · Full-stack Engineer</li>
+                <li>🧠 Ada · AI Algorithm Engineer</li>
+                <li>🖥️ Alfred · Device Steward</li>
+                <li>🐞 Hopper · Test Engineer</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p class="org-note muted">⚠️ Sample only. Your own org will look different — build the agents your work needs and arrange them to fit you. Structure shown is illustrative.</p>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2>How it works</h2>
+        <div class="steps">
+          <div class="step"><span class="num">1</span><p><b>Clone</b> the bundle — the directory structure <i>is</i> the installation structure.</p></div>
+          <div class="step"><span class="num">2</span><p><b>Follow the Quick Start</b> — build your first agent in 15 minutes, start to finish.</p></div>
+          <div class="step"><span class="num">3</span><p><b>Scale with the templates</b> — copy, fill, register. Your team grows one clean handoff at a time.</p></div>
+        </div>
+        <p class="harness-line">Works with <strong>Claude Code · Codex · Cursor · Gemini CLI · plugin-based harnesses</strong> — module 02 has the filename map, module 07 the full migration method.</p>
+      </div>
+    </section>
+
+    <section id="opencore" class="section alt">
+      <div class="container">
+        <h2>Open core, stated up front</h2>
+        <div class="opencore-grid">
+          <div class="oc free">
+            <h3>🆓 Free</h3>
+            <p>The code and configs already in public GitHub repos — the storefront and the free samples.</p>
+          </div>
+          <div class="oc paid">
+            <h3>📦 What you pay for</h3>
+            <p>The organization layer: the handbook, blank templates, the "why" behind case walkthroughs, and the cross-harness translation layer.</p>
+          </div>
+          <div class="oc never">
+            <h3>🚫 Never included</h3>
+            <p>Any trading content (strategies, backtests, signal logs), private configs, or credentials. The paid bundle contains none of it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="container pricing">
+        <div class="price-card">
+          <h2>The Agent Team Playbook</h2>
+          <p class="price"><span class="now">$49</span> <s class="was">$69</s></p>
+          <ul class="includes">
+            <li>✅ 7-module handbook — English edition</li>
+            <li>✅ 3 copy-and-fill templates (identity / rules / registry)</li>
+            <li>✅ Clone-ready bundle — 20 files, first agent in 15 min</li>
+            <li>✅ Cross-harness portability guide</li>
+            <li>✅ Instant download after payment</li>
+          </ul>
+          <button class="buy-cta big" data-cta="pricing">Buy Now — $49</button>
+          <p class="pay-note">Secure payment via PayPal · delivery by Payloadz</p>
+          <div class="earlybird hidden" id="earlybird-2">
+            Launch week: use code <code id="earlybird-code-2">EARLY35</code> → <strong>$35</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="free-sample" class="section alt">
+      <div class="container free-sample">
+        <h2>Not ready to buy?</h2>
+        <p class="section-sub">Get <strong>Module 01 — The Team Method</strong> as a free sample: the core idea of the whole Playbook in about ten pages. See if it fits your team before paying $49.</p>
+        <form id="email-form" class="email-capture" method="post" action="" target="_blank" rel="noopener" novalidate>
+          <input type="email" name="email" placeholder="you@example.com" required autocomplete="email" aria-label="Email address">
+          <button type="submit" class="email-cta" data-cta="free-sample">Send me the free module</button>
+        </form>
+        <p class="email-note muted">Free · no spam · unsubscribe anytime. Delivered by email.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>The Agent Team Playbook · digital download · <span class="muted">product id Team-Playbook-v3</span></p>
+      <p class="muted privacy">This page uses privacy-respecting analytics (page views and outbound clicks only) to understand traffic. Purchase is processed by Payloadz &amp; PayPal; no payment data touches this site. Emails collected for the free sample are used only to deliver it and occasional product updates — unsubscribe anytime.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
