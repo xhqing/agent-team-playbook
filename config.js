@@ -4,7 +4,7 @@ window.SITE_CONFIG = {
   // Google Analytics 4 Measurement ID, e.g. "G-ABC1234567".
   // Enables: page_view (auto) + outbound click (Enhanced Measurement, auto)
   //          + click_buy_cta (manual backup, beacon transport).
-  ga4Id: "",
+  ga4Id: "G-FRE2DZS751",
 
   // Meta Pixel ID — set when running Meta ads (Buzz phase).
   // Enables: PageView (= landing_page_view for Meta traffic) + ClickBuyCTA.
