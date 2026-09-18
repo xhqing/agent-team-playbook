@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="The Agent Team Playbook social card">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#131a23"/>
+      <stop offset="100%" stop-color="#1a2332"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="38%" r="45%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nodeG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- left text block -->
+  <text x="84" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="6" fill="#58a6ff">THE PLAYBOOK</text>
+  <text x="80" y="248" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="76" font-weight="800" fill="#e6edf3">The Agent Team</text>
+  <text x="80" y="334" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="76" font-weight="800" fill="#e6edf3">Playbook</text>
+  <text x="84" y="404" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="400" fill="#8b98a9">Organize 20 AI agents into a company</text>
+  <text x="84" y="444" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="400" fill="#8b98a9">that runs itself.</text>
+
+  <!-- bottom pill -->
+  <rect x="84" y="500" width="470" height="56" rx="28" fill="#1a2332" stroke="#2b3648" stroke-width="1.5"/>
+  <circle cx="120" cy="528" r="7" fill="#3fb950"/>
+  <text x="142" y="537" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#e6edf3">$49 · Instant Download · 12 Files</text>
+
+  <!-- right: mini org chart of 20 agents -->
+  <g stroke="#2b3648" stroke-width="2">
+    <!-- connectors: top node to three group leads -->
+    <line x1="905" y1="185" x2="800" y2="290"/>
+    <line x1="905" y1="185" x2="905" y2="290"/>
+    <line x1="905" y1="185" x2="1010" y2="290"/>
+    <!-- group leads to members -->
+    <line x1="800" y1="315" x2="770" y2="420"/>
+    <line x1="800" y1="315" x2="830" y2="420"/>
+    <line x1="800" y1="315" x2="755" y2="330"/>
+    <line x1="905" y1="315" x2="905" y2="420"/>
+    <line x1="905" y1="315" x2="875" y2="420"/>
+    <line x1="905" y1="315" x2="935" y2="420"/>
+    <line x1="1010" y1="315" x2="1010" y2="420"/>
+    <line x1="1010" y1="315" x2="1040" y2="420"/>
+    <line x1="1010" y1="315" x2="980" y2="420"/>
+  </g>
+  <!-- top: the manager -->
+  <circle cx="905" cy="160" r="27" fill="url(#nodeG)"/>
+  <text x="905" y="168" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" text-anchor="middle" dominant-baseline="central">🧭</text>
+  <!-- three group leads -->
+  <g>
+    <circle cx="800" cy="302" r="21" fill="#1a2332" stroke="#58a6ff" stroke-width="2.5"/>
+    <circle cx="905" cy="302" r="21" fill="#1a2332" stroke="#58a6ff" stroke-width="2.5"/>
+    <circle cx="1010" cy="302" r="21" fill="#1a2332" stroke="#58a6ff" stroke-width="2.5"/>
+  </g>
+  <!-- members -->
+  <g fill="#1a2332" stroke="#3fb950" stroke-width="2">
+    <circle cx="755" cy="330" r="13"/>
+    <circle cx="770" cy="440" r="13"/>
+    <circle cx="830" cy="440" r="13"/>
+    <circle cx="875" cy="440" r="13"/>
+    <circle cx="905" cy="440" r="13"/>
+    <circle cx="935" cy="440" r="13"/>
+    <circle cx="980" cy="440" r="13"/>
+    <circle cx="1010" cy="440" r="13"/>
+    <circle cx="1040" cy="440" r="13"/>
+  </g>
+  <text x="905" y="512" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" text-anchor="middle" fill="#8b98a9">1 manager · 3 squads · 20 agents</text>
+</svg>
